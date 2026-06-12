@@ -2,7 +2,7 @@
   "name": "TradeAssist",
   "short_name": "TradeAssist",
   "description": "Job pipeline app for service workers — quotes, invoices, bookings, messages",
-  "start_url": "https://porkjelly77.github.io/TradeAssist/",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color": "#0a0e1a",
   "theme_color": "#0a0e1a",
