@@ -1,0 +1,10 @@
+node_modules/
+capacitor-app/node_modules/
+capacitor-app/android/.gradle/
+capacitor-app/android/build/
+capacitor-app/ios/build/
+.DS_Store
+Thumbs.db
+*.zip
+backup/
+.env
