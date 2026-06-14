@@ -15,3 +15,23 @@
 .paper-doc *{box-sizing:border-box;color:#000}.paper-head{display:grid;grid-template-columns:1.65fr .7fr 1.25fr;align-items:start;gap:14px;margin-bottom:18px}.paper-brand{display:flex;gap:10px;align-items:flex-start}.paper-logo{width:90px;height:58px;object-fit:contain}.paper-business{line-height:1.2;margin-top:42px}.paper-business strong{display:block}.paper-business span{display:block}.paper-head h1{text-align:center;font-size:17px;margin:0;font-weight:800}.paper-info{width:100%;border-collapse:collapse;font-size:10px}.paper-info th,.paper-info td{border:1px solid #000;padding:3px 5px;text-align:left}.paper-info th{background:#d9d9d9;width:42%;font-weight:800}.paper-addresses{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin:8px 12px 14px}.paper-address{height:108px;border:1px solid #000;display:grid;grid-template-columns:15px 1fr}.paper-address-strip{background:#d9d9d9;border-right:1px solid #000}.paper-address-body{padding:4px 7px;line-height:1.25}.paper-terms,.paper-items,.paper-totals{border-collapse:collapse;width:100%}.paper-terms th,.paper-terms td,.paper-items th,.paper-items td,.paper-totals th,.paper-totals td{border:1px solid #000;padding:4px 5px;vertical-align:top}.paper-terms th,.paper-items th{background:#d9d9d9;text-align:center;font-weight:500}.paper-terms td{text-align:center;height:18px}.paper-items{margin-top:0}.paper-items th{height:25px}.paper-items td{height:24px}.paper-items .qty{width:38px;text-align:center}.paper-items .num{text-align:right;white-space:nowrap}.paper-items p{font-style:italic;margin:8px 0 0;line-height:1.35}.paper-fill td{height:210px}.paper-bottom{display:grid;grid-template-columns:1.1fr .75fr;gap:105px;margin-top:4px}.paper-remit{border:1px solid #000;background:#d9d9d9;padding:6px 18px;min-height:64px;line-height:1.15}.paper-contact{margin-top:4px;line-height:1.15}.paper-totals th{background:#eee;text-align:left;width:42%}.paper-totals td:nth-child(2){width:50px;text-align:center}.paper-totals td:last-child{text-align:right;min-width:92px}.paper-totals .grand th,.paper-totals .grand td{font-weight:800;background:#d9d9d9}
 @media(max-width:900px){.paper-doc{padding:18px;overflow:auto}.paper-head{grid-template-columns:1fr}.paper-head h1{text-align:left}.paper-addresses{grid-template-columns:1fr;margin-left:0;margin-right:0}.paper-bottom{grid-template-columns:1fr;gap:12px}.paper-fill td{height:80px}}
 @media print{body>*:not(.print-only){display:none!important}.print-only{display:block!important}.paper-doc{box-shadow:none;border:0;margin:0 auto;width:7.75in}}
+
+/* Multi-line items table for quote/invoice forms */
+.line-items-table{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--bg2)}
+.line-items-header{display:grid;grid-template-columns:50px 80px 1fr 90px 80px 90px 30px;gap:4px;padding:8px 10px;background:var(--panel);border-bottom:1px solid var(--line);font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase}
+.line-item-row{display:grid;grid-template-columns:50px 80px 1fr 90px 80px 90px 30px;gap:4px;padding:4px 10px;align-items:center;border-bottom:1px solid var(--line)}
+.line-item-row:last-child{border-bottom:none}
+.line-item-row input{background:#0c1528;border:1px solid var(--line);border-radius:8px;padding:6px 8px;color:var(--text);font-size:13px}
+.line-item-row input:focus{border-color:var(--accent);outline:none}
+.line-item-row .li-ext{font-size:13px;color:var(--accent2);font-weight:600;text-align:right;padding-right:8px}
+.btn.small{padding:4px 8px;font-size:12px;border-radius:8px}
+
+/* Multi-line items table for quote/invoice forms */
+.line-items-table{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--bg2)}
+.line-items-header{display:grid;grid-template-columns:50px 80px 1fr 90px 80px 90px 30px;gap:4px;padding:8px 10px;background:var(--panel);border-bottom:1px solid var(--line);font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase}
+.line-item-row{display:grid;grid-template-columns:50px 80px 1fr 90px 80px 90px 30px;gap:4px;padding:4px 10px;align-items:center;border-bottom:1px solid var(--line)}
+.line-item-row:last-child{border-bottom:none}
+.line-item-row input{background:#0c1528;border:1px solid var(--line);border-radius:8px;padding:6px 8px;color:var(--text);font-size:13px}
+.line-item-row input:focus{border-color:var(--accent);outline:none}
+.line-item-row .li-ext{font-size:13px;color:var(--accent2);font-weight:600;text-align:right;padding-right:8px}
+.btn.small{padding:4px 8px;font-size:12px;border-radius:8px}
